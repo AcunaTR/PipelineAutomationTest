@@ -5,6 +5,8 @@ function packageFail {
 }
 trap packageFail ERROR
 
+echo 'BUILD NUMBER: $BUILD_NUMBER'
+
 CURDIR=`pwd`
 
 docker run --rm \
