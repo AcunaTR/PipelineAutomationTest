@@ -6,4 +6,5 @@ function deployFail {
 trap deployFail ERROR
 
 docker tag jowi:latest 015887481462.dkr.ecr.us-east-1.amazonaws.com/acuna-jowi:latest
+$(aws ecr get-login --no-include-email --region us-east-1)
 docker push 015887481462.dkr.ecr.us-east-1.amazonaws.com/acuna-jowi:latest
