@@ -5,5 +5,4 @@ function createFail {
 }
 trap createFail ERROR
 
-docker tag jowi:latest jowi:redundant
 docker build -t jowi:latest .
