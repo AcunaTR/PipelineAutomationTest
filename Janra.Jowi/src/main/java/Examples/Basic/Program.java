@@ -35,7 +35,7 @@ public class Program
         IConfiguration config = server.create();
         config.setTimeout(500); //mS
         config.addMiddleware("/my/path", middleware);
-        //pipeline test3
+        
         server.Start(6543, config);
     }
 }
