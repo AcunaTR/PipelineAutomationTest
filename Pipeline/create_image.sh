@@ -6,3 +6,4 @@ function createFail {
 trap createFail ERR
 
 docker build -t jowi:latest .
+docker tag jowi:latest jowi:$BUILD_NUMBER
