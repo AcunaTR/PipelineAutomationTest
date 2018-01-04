@@ -5,5 +5,7 @@ function createFail {
 }
 trap createFail ERR
 
+VERSION=$(cat ./version)
+
 docker build -t jowi:latest .
-docker tag jowi:latest jowi:$BUILD_NUMBER
+docker tag jowi:latest jowi:$VERSION.$BUILD_NUMBER
