@@ -5,4 +5,5 @@ function deployFail {
 }
 trap deployFail ERROR
 
-docker tag jowi:latest 015887481462.dkr.ecr.us-east-1.amazonaws.com/acuna-jowi:latest
+docker tag jowi:latest 015887481462.dkr.ecr.us-east-1.amazonaws.com/jowi:latest
+docker push 015887481462.dkr.ecr.us-east-1.amazonaws.com/jowi:latest
