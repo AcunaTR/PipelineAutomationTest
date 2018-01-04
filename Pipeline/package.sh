@@ -5,7 +5,7 @@ function packageFail {
 }
 trap packageFail ERROR
 
-echo 'BUILD NUMBER: ${BUILD_NUMBER}'
+printenv
 
 CURDIR=`pwd`
 
