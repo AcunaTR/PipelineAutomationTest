@@ -5,3 +5,4 @@ function deployFail {
 }
 trap deployFail ERROR
 
+docker tag acuna-jowi:latest 015887481462.dkr.ecr.us-east-1.amazonaws.com/acuna-jowi:latest
