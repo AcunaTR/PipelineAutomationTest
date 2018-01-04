@@ -3,9 +3,9 @@
 function packageFail {
     echo "Maven package failed"
 }
-trap packageFail ERROR
+trap packageFail ERR
 
-printenv
+echo $BUILD_NUMBER
 
 CURDIR=`pwd`
 
