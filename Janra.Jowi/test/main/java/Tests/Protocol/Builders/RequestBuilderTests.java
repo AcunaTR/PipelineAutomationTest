@@ -92,6 +92,16 @@ public class RequestBuilderTests
     }
     
     @Test
+    public void GoodRequestOnGetRequest()
+    {
+        SocketStubComplete socketStub = new SocketStubComplete();
+        socketStub.setMessageToRead("\"POST /my/request HTTP/1.1\r\nheader1: 123\r\nheader2: 456\r\n\r\n");
+        HttpContext context = _unitUnderTest.ProcessRequest(socketStub);
+        
+        assertEquals((long)200, (long)context.response().status());
+    }
+    
+    @Test
     public void BadRequestIfContentLengthNaN()
     {
         _unitUnderTest = new RequestBuilder(_parser, _config);
