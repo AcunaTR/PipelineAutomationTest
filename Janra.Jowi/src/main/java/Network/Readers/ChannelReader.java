@@ -16,15 +16,15 @@
  */
 package main.java.Network.Readers;
 
-import main.java.Network.Wrappers.ISocketChannel;
-import main.java.Protocol.Parsers.ProtocolException;
-
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
+
+import main.java.Network.Wrappers.ISocketChannel;
+import main.java.Protocol.Parsers.ProtocolException;
 
 /**
  *

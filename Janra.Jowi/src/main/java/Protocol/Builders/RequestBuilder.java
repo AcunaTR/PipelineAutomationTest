@@ -16,6 +16,9 @@
  */
 package main.java.Protocol.Builders;
 
+import java.io.IOException;
+import java.net.URISyntaxException;
+
 import main.java.Network.Readers.ChannelReader;
 import main.java.Network.Readers.IdentityReader;
 import main.java.Network.Wrappers.ISocketChannel;
@@ -25,9 +28,6 @@ import main.java.Request.Processing.TransferEncodingFactory;
 import main.java.Request.Processing.TransferEncodingProcessor;
 import main.java.Server.IConfiguration;
 import main.java.Server.IHeader;
-
-import java.io.IOException;
-import java.net.URISyntaxException;
 
 /**
  *

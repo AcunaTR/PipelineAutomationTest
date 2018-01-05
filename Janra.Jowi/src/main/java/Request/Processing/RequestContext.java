@@ -16,15 +16,15 @@
  */
 package main.java.Request.Processing;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import main.java.Protocol.Models.Header;
 import main.java.Protocol.Models.HttpContext;
 import main.java.Protocol.Models.HttpRequest;
 import main.java.Server.HttpResponse;
 import main.java.Server.IContext;
 import main.java.Server.IProperties;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  *

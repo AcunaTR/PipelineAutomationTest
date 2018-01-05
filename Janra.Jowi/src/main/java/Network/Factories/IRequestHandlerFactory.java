@@ -16,12 +16,12 @@
  */
 package main.java.Network.Factories;
 
+import java.io.IOException;
+
 import main.java.Network.Wrappers.ISocketChannel;
 import main.java.Pipeline.Configuration.Configuration;
 import main.java.Request.Processing.IMarshaller;
 import main.java.Utilities.ILauncher;
-
-import java.io.IOException;
 
 /**
  *

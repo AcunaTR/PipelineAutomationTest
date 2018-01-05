@@ -16,6 +16,8 @@
  */
 package main.java.Network.Handlers;
 
+import java.io.IOException;
+
 import main.java.Network.ISocketServer;
 import main.java.Network.Factories.IRequestHandlerFactory;
 import main.java.Network.Wrappers.*;
@@ -26,8 +28,6 @@ import main.java.Request.Processing.IMarshaller;
 import main.java.Request.Processing.ISendResponse;
 import main.java.Server.IConfiguration;
 import main.java.Utilities.ILauncher;
-
-import java.io.IOException;
 
 /**
  *

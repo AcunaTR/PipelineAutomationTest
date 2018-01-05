@@ -16,13 +16,13 @@
  */
 package main.java.Protocol.Models;
 
-import main.java.Protocol.Parsers.ProtocolException;
-import main.java.Server.HttpResponse;
-import main.java.Server.IHeader;
-
 import java.text.MessageFormat;
 import java.util.Iterator;
 import java.util.Map;
+
+import main.java.Protocol.Parsers.ProtocolException;
+import main.java.Server.HttpResponse;
+import main.java.Server.IHeader;
 
 /**
  *

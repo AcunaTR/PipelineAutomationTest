@@ -16,6 +16,8 @@
  */
 package main.java.Network.Factories;
 
+import java.io.IOException;
+
 import main.java.Network.Handlers.RequestHandler;
 import main.java.Network.Wrappers.*;
 import main.java.Pipeline.Configuration.Configuration;
@@ -23,8 +25,6 @@ import main.java.Protocol.Builders.*;
 import main.java.Protocol.Parsers.*;
 import main.java.Request.Processing.*;
 import main.java.Utilities.ILauncher;
-
-import java.io.IOException;
 
 /**
  *
