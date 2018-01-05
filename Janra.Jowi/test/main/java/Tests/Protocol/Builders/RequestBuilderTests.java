@@ -98,7 +98,7 @@ public class RequestBuilderTests
         socketStub.setMessageToRead("\"POST /my/request HTTP/1.1\r\nheader1: 123\r\nheader2: 456\r\n\r\n");
         HttpContext context = _unitUnderTest.ProcessRequest(socketStub);
         
-        assertEquals((long)200, (long)context.response().status());
+        assertEquals((long)400, (long)context.response().status());
     }
     
     @Test
