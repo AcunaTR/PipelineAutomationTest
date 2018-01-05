@@ -100,6 +100,7 @@ public class RequestBuilderTests
         HttpContext context = _unitUnderTest.ProcessRequest(socketStub);
         assertTrue(context.request().header("content-length") == null);
         assertEquals((long)200, (long)context.response().status());
+        fail("Poo");
     }
     
     @Test
