@@ -111,10 +111,12 @@ public class RequestBuilder implements IRequestBuilder
         }
         catch (ProtocolException ex)
         {
+        	System.out.println("ProtocolException - " + ex.getMessage());
             return new HttpContext(ex.ResponseStatus);
         }
         catch (IOException | URISyntaxException | IllegalArgumentException ex)
         {
+        	System.out.println("IOException | URISyntaxException | IllegalArgumentException - " + ex.getMessage());
             return new HttpContext(400);
         }
     }
