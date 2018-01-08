@@ -52,4 +52,9 @@ public enum HttpMethod
         }
         return HttpMethod.UNKNOWN;
   }
+    
+    @Override
+    public String toString() {
+    	return _textValue;
+    }
 }

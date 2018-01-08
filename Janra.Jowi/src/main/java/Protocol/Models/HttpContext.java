@@ -62,4 +62,9 @@ public class HttpContext
     {
         return _response;
     }
+    
+    @Override
+    public String toString() {
+    	return "Http Request - " + _request.toString();
+    }
 }

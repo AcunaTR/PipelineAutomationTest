@@ -116,4 +116,9 @@ public class Header implements IHeader
         
         return output;
     }
+    
+    @Override
+    public String toString() {
+    	return "{" + _key + "," + _values.toString() + "}";
+    }
 }

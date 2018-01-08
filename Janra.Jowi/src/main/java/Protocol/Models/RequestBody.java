@@ -42,4 +42,9 @@ public class RequestBody
     {
         return _body;
     }
+    
+    @Override
+    public String toString() {
+    	return _body.toString();
+    }
 }

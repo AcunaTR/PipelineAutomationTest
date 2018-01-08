@@ -100,4 +100,9 @@ public class Headers
         
         return false;
     }
+    
+    @Override
+    public String toString() {
+    	return "[" + _headers.toString() + "]";
+    }
 }
