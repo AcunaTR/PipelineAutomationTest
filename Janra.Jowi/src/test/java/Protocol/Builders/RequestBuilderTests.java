@@ -92,6 +92,21 @@ public class RequestBuilderTests
     }
     
     @Test
+    public void GoodRequestWithPortNumber()
+    {
+        SocketStubComplete socketStub = new SocketStubComplete();
+        socketStub.setMessageToRead("GET /my/request HTTP/1.1\r\nHost: 123:123\r\n\r\n");
+        HttpContext context = _unitUnderTest.ProcessRequest(socketStub);
+      
+        assertEquals((long)200, (long)context.response().status());
+        try{ 
+        	assertTrue(context.request().body().toString().isEmpty());
+        }
+        catch (NullPointerException e) {        	
+        }
+    }
+    
+    @Test
     public void GoodRequestOnGetRequest()
     {
         SocketStubComplete socketStub = new SocketStubComplete();

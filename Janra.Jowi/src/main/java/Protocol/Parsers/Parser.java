@@ -76,7 +76,11 @@ public class Parser implements IParser
         }
         String name = line.substring(0, colon);
         String value = line.substring(colon + 1);
-        
+        if(value.contains(":")) {
+        	String copy = value;
+        	int colon2 = copy.indexOf(':');
+        	value = copy.substring(0, colon);
+        }
         // section 3.2.4 states:
         // No whitespace is allowed between the header field-name and colon
         if (name.length() != name.trim().length())
