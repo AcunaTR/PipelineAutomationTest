@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Stubs.Network.Readers;
+package java.Stubs.Network.Readers;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import main.java.Network.Readers.IReader;
-import main.java.Network.Wrappers.ISocketChannel;
-import main.java.Protocol.Parsers.ProtocolException;
+import java.Network.Readers.IReader;
+import java.Network.Wrappers.ISocketChannel;
+import java.Protocol.Parsers.ProtocolException;
 
 /**
  *

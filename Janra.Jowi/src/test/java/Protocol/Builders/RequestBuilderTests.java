@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Protocol.Builders;
+package java.Protocol.Builders;
 
-import main.java.Protocol.Builders.RequestBuilder;
-import main.java.Protocol.Models.HttpContext;
-import main.java.Protocol.Parsers.IParser;
-import main.java.Protocol.Parsers.Parser;
-import main.java.Server.IConfiguration;
-import test.java.Stubs.Network.*;
-import test.java.Stubs.Processing.ConfigStub;
+import java.Protocol.Builders.RequestBuilder;
+import java.Protocol.Models.HttpContext;
+import java.Protocol.Parsers.IParser;
+import java.Protocol.Parsers.Parser;
+import java.Server.IConfiguration;
+import java.Stubs.Network.*;
+import java.Stubs.Processing.ConfigStub;
 
 import java.io.UnsupportedEncodingException;
 import static org.junit.Assert.assertEquals;

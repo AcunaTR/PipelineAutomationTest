@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Protocol.Processing;
+package java.Protocol.Processing;
 
-import main.java.Protocol.Models.ResponseImpl;
-import main.java.Protocol.Parsers.ProtocolException;
-import main.java.Request.Processing.Responder;
-import test.java.Stubs.Network.SocketStubComplete;
-import test.java.Stubs.Protocol.ResponseBuilderStub;
+import java.Protocol.Models.ResponseImpl;
+import java.Protocol.Parsers.ProtocolException;
+import java.Request.Processing.Responder;
+import java.Stubs.Network.SocketStubComplete;
+import java.Stubs.Protocol.ResponseBuilderStub;
 
 import java.io.IOException;
 import static org.junit.Assert.assertTrue;

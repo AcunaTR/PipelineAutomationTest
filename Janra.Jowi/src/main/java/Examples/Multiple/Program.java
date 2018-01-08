@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package Examples.Multiple;
+package java.Examples.Multiple;
 
 import java.io.IOException;
 
-import Examples.Basic.Pong;
-import Server.IConfiguration;
-import Server.IPipelineMiddleware;
-import Server.Server;
+import java.Examples.Basic.Pong;
+import java.Server.IConfiguration;
+import java.Server.IPipelineMiddleware;
+import java.Server.Server;
 
 /**
  *

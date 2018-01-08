@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Stubs.Processing;
+package java.Stubs.Processing;
 
 import java.util.List;
 import java.util.Map;
 
-import main.java.Pipeline.IPipeline;
-import main.java.Pipeline.Configuration.IPipelineBuilder;
-import main.java.Server.IPipelineMiddleware;
+import java.Pipeline.IPipeline;
+import java.Pipeline.Configuration.IPipelineBuilder;
+import java.Server.IPipelineMiddleware;
 
 /**
  *

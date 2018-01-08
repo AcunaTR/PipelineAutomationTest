@@ -32,3 +32,4 @@ build
 /dist/
 /bin/
 /Janra.Jowi/bin/
+/target/

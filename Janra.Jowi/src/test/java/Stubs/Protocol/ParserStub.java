@@ -14,17 +14,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Stubs.Protocol;
+package java.Stubs.Protocol;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import main.java.Protocol.Models.Header;
-import main.java.Protocol.Models.HttpMethod;
-import main.java.Protocol.Models.HttpRequest;
-import main.java.Protocol.Parsers.IParser;
-import main.java.Protocol.Parsers.ProtocolException;
-import main.java.Server.IHeader;
+import java.Protocol.Models.Header;
+import java.Protocol.Models.HttpMethod;
+import java.Protocol.Models.HttpRequest;
+import java.Protocol.Parsers.IParser;
+import java.Protocol.Parsers.ProtocolException;
+import java.Server.IHeader;
 
 /**
  *

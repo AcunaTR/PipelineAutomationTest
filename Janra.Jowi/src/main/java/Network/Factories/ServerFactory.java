@@ -14,12 +14,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package Network.Factories;
+package java.Network.Factories;
 
 import java.io.IOException;
 
-import Network.*;
-import Network.Wrappers.*;
+import java.Network.*;
+import java.Network.Wrappers.*;
 
 /**
  *

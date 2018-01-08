@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Network.Readers;
+package java.Network.Readers;
 
-import main.java.Network.Readers.ChunkedReader;
-import main.java.Protocol.Parsers.ProtocolException;
-import test.java.Stubs.Network.*;
+import java.Network.Readers.ChunkedReader;
+import java.Protocol.Parsers.ProtocolException;
+import java.Stubs.Network.*;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

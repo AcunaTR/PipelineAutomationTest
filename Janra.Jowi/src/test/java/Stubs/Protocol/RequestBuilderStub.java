@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Stubs.Protocol;
+package java.Stubs.Protocol;
 
-import main.java.Network.Wrappers.ISocketChannel;
-import main.java.Protocol.Builders.IRequestBuilder;
-import main.java.Protocol.Models.HttpContext;
+import java.Network.Wrappers.ISocketChannel;
+import java.Protocol.Builders.IRequestBuilder;
+import java.Protocol.Models.HttpContext;
 
 /**
  *

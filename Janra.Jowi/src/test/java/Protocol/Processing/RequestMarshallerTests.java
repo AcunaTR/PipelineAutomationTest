@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Protocol.Processing;
+package java.Protocol.Processing;
 
-import main.java.Pipeline.*;
-import main.java.Pipeline.Configuration.InvalidConfigurationException;
-import main.java.Request.Processing.PipelineModule;
-import main.java.Request.Processing.RequestMarshaller;
-import test.java.Stubs.Middleware.MiddlewareStub;
+import java.Pipeline.*;
+import java.Pipeline.Configuration.InvalidConfigurationException;
+import java.Request.Processing.PipelineModule;
+import java.Request.Processing.RequestMarshaller;
+import java.Stubs.Middleware.MiddlewareStub;
 
 import java.util.ArrayList;
 import java.util.List;

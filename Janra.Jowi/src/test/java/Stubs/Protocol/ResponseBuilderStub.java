@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Stubs.Protocol;
+package java.Stubs.Protocol;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.CharacterCodingException;
 
-import main.java.Protocol.Builders.IResponseBuilder;
-import main.java.Protocol.Models.ResponseImpl;
-import main.java.Protocol.Parsers.ProtocolException;
+import java.Protocol.Builders.IResponseBuilder;
+import java.Protocol.Models.ResponseImpl;
+import java.Protocol.Parsers.ProtocolException;
 
 /**
  *

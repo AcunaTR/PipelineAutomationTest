@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Protocol.Models;
+package java.Protocol.Models;
 
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
-import main.java.Protocol.Models.Header;
-import main.java.Protocol.Models.Headers;
+import java.Protocol.Models.Header;
+import java.Protocol.Models.Headers;
 
 /**
  *

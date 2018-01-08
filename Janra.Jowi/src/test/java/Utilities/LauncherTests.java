@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Utilities;
+package java.Utilities;
 
-import main.java.Utilities.ThreadLauncher;
-import test.java.Stubs.Utilities.LaunchableStub;
+import java.Utilities.ThreadLauncher;
+import java.Stubs.Utilities.LaunchableStub;
 
 import org.junit.After;
 import static org.junit.Assert.assertFalse;

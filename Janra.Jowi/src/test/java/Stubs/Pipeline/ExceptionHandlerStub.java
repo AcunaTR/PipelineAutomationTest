@@ -14,9 +14,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Stubs.Pipeline;
+package java.Stubs.Pipeline;
 
-import main.java.Server.IExceptionHandler;
+import java.Server.IExceptionHandler;
 
 /**
  *

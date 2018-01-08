@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Stubs.Processing;
+package java.Stubs.Processing;
 
-import main.java.Protocol.Models.HttpContext;
-import main.java.Request.Processing.IProcessRequest;
+import java.Protocol.Models.HttpContext;
+import java.Request.Processing.IProcessRequest;
 
 /**
  *

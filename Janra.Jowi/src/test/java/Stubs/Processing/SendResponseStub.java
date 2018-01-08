@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Stubs.Processing;
+package java.Stubs.Processing;
 
-import main.java.Network.Wrappers.ISocketChannel;
-import main.java.Protocol.Models.ResponseImpl;
-import main.java.Request.Processing.ISendResponse;
+import java.Network.Wrappers.ISocketChannel;
+import java.Protocol.Models.ResponseImpl;
+import java.Request.Processing.ISendResponse;
 
 /**
  *

@@ -14,17 +14,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Protocol.Processing;
+package java.Protocol.Processing;
 
-import main.java.Network.Wrappers.ISocketChannel;
-import main.java.Protocol.Models.Header;
-import main.java.Protocol.Models.RequestBody;
-import main.java.Protocol.Parsers.ProtocolException;
-import main.java.Request.Processing.EncodingReaders;
-import main.java.Request.Processing.TransferEncodingProcessor;
-import main.java.Server.IHeader;
-import test.java.Stubs.Network.*;
-import test.java.Stubs.Network.Readers.*;
+import java.Network.Wrappers.ISocketChannel;
+import java.Protocol.Models.Header;
+import java.Protocol.Models.RequestBody;
+import java.Protocol.Parsers.ProtocolException;
+import java.Request.Processing.EncodingReaders;
+import java.Request.Processing.TransferEncodingProcessor;
+import java.Server.IHeader;
+import java.Stubs.Network.*;
+import java.Stubs.Network.Readers.*;
 
 import java.io.IOException;
 import static org.junit.Assert.assertTrue;

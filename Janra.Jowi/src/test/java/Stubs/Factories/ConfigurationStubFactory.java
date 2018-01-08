@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Stubs.Factories;
+package java.Stubs.Factories;
 
-import main.java.Pipeline.Configuration.Configuration;
-import test.java.Stubs.Pipeline.ExceptionHandlerStub;
-import test.java.Stubs.Pipeline.PipelineConfigStub;
+import java.Pipeline.Configuration.Configuration;
+import java.Stubs.Pipeline.ExceptionHandlerStub;
+import java.Stubs.Pipeline.PipelineConfigStub;
 
 /**
  *

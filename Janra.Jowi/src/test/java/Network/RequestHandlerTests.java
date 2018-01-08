@@ -14,21 +14,21 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Network;
+package java.Network;
 
-import main.java.Network.Factories.ConfigurationFactory;
-import main.java.Network.Handlers.RequestHandler;
-import main.java.Pipeline.Configuration.Configuration;
-import main.java.Request.Processing.IProcessRequest;
-import test.java.Stubs.Network.SelectorKeyStub;
-import test.java.Stubs.Network.SelectorStub;
-import test.java.Stubs.Network.SocketStubComplete;
-import test.java.Stubs.Pipeline.PipelineConfigStub;
-import test.java.Stubs.Processing.ProcessRequestExceptionStub;
-import test.java.Stubs.Processing.ProcessRequestStub;
-import test.java.Stubs.Processing.SendResponseStub;
-import test.java.Stubs.Protocol.RequestBuilderStub;
-import test.java.Stubs.Utilities.LauncherStub;
+import java.Network.Factories.ConfigurationFactory;
+import java.Network.Handlers.RequestHandler;
+import java.Pipeline.Configuration.Configuration;
+import java.Request.Processing.IProcessRequest;
+import java.Stubs.Network.SelectorKeyStub;
+import java.Stubs.Network.SelectorStub;
+import java.Stubs.Network.SocketStubComplete;
+import java.Stubs.Pipeline.PipelineConfigStub;
+import java.Stubs.Processing.ProcessRequestExceptionStub;
+import java.Stubs.Processing.ProcessRequestStub;
+import java.Stubs.Processing.SendResponseStub;
+import java.Stubs.Protocol.RequestBuilderStub;
+import java.Stubs.Utilities.LauncherStub;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;

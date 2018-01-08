@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Network;
+package java.Network;
 
 import java.io.IOException;
 import static org.junit.Assert.assertFalse;
@@ -23,7 +23,7 @@ import static org.junit.Assert.fail;
 import org.junit.Before;
 import org.junit.Test;
 
-import test.java.Stubs.Factories.ConfigurationStubFactory;
+import java.Stubs.Factories.ConfigurationStubFactory;
 
 /**
  *

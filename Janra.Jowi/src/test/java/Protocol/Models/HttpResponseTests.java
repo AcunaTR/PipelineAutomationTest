@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Protocol.Models;
+package java.Protocol.Models;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -22,8 +22,8 @@ import static org.junit.Assert.fail;
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.Protocol.Models.Header;
-import main.java.Protocol.Models.ResponseImpl;
+import java.Protocol.Models.Header;
+import java.Protocol.Models.ResponseImpl;
 
 /**
  *

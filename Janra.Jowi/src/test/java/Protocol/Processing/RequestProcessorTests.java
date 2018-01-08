@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Protocol.Processing;
+package java.Protocol.Processing;
 
-import main.java.Protocol.Models.HttpContext;
-import main.java.Protocol.Models.HttpMethod;
-import main.java.Protocol.Models.HttpRequest;
-import main.java.Protocol.Models.ResponseImpl;
-import main.java.Request.Processing.RequestProcessor;
-import test.java.Stubs.Factories.ConfigurationStubFactory;
-import test.java.Stubs.Processing.*;
+import java.Protocol.Models.HttpContext;
+import java.Protocol.Models.HttpMethod;
+import java.Protocol.Models.HttpRequest;
+import java.Protocol.Models.ResponseImpl;
+import java.Request.Processing.RequestProcessor;
+import java.Stubs.Factories.ConfigurationStubFactory;
+import java.Stubs.Processing.*;
 
 import org.junit.*;
 import static org.junit.Assert.assertTrue;

@@ -14,12 +14,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Stubs.Factories;
+package java.Stubs.Factories;
 
-import main.java.Network.SocketServer;
-import main.java.Network.Wrappers.*;
-import test.java.Stubs.Network.SelectorStub;
-import test.java.Stubs.Network.ServerSocketStub;
+import java.Network.SocketServer;
+import java.Network.Wrappers.*;
+import java.Stubs.Network.SelectorStub;
+import java.Stubs.Network.ServerSocketStub;
 
 import java.util.HashMap;
 import java.util.Map;
