@@ -35,8 +35,6 @@ import Protocol.Processing.TransferEncodingProcessorTests;
 	ChunkedReaderTests.class,
 	GzipReaderTests.class,
 	IncomingRequestHandlerErrorTests.class,
-	IncomingRequestHandlerTests.class,
-	NetworkContext.class,
 	RequestHandlerTests.class,
 	SocketServerTests.class,
 	PipelineBuilderTests.class,
@@ -60,6 +58,6 @@ import Protocol.Processing.TransferEncodingProcessorTests;
 
 })
 
-public class AllJowiTestCase {
+public class AllJowiTestsCase {
 
 }
