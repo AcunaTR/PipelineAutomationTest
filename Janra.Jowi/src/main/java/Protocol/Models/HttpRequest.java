@@ -129,13 +129,13 @@ public class HttpRequest implements Cloneable
     @Override
     public String toString() {
     	String q = "Http method - " + _method.toString(); 
-    	String w = "\nPath - " + _path;
-		String e = "\nVersion - " + _version;
-		String r = "\nHost - " + _host;
-		String t = "\nMedia type - " + _mediaType;
-		String y = "\nCharset - " + _charset; 
-		String u = "\nHeaders - " + _headers.toString();
-		return q+w+e+r+t+y+u;
+    	//String w = "\nPath - " + _path;
+		//String e = "\nVersion - " + _version;
+		//String r = "\nHost - " + _host;
+		//String t = "\nMedia type - " + _mediaType;
+		//String y = "\nCharset - " + _charset; 
+		//String u = "\nHeaders - " + _headers.toString();
+		return q;
     }
      
  }
