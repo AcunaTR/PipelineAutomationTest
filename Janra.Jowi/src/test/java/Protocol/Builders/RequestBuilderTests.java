@@ -92,7 +92,7 @@ public class RequestBuilderTests
     }
     
     @Test
-    public void GoodRequestWithPortNumber()
+    public void GoodHostContainsPortNumber()
     {
         SocketStubComplete socketStub = new SocketStubComplete();
         socketStub.setMessageToRead("GET /my/request HTTP/1.1\r\nHost: 123:123\r\n\r\n");
