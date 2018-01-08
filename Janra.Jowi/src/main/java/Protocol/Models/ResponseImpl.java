@@ -150,4 +150,22 @@ public class ResponseImpl implements HttpResponse
 
         return retVal;
     }
+    
+    @Override
+    public String toString() {
+    	/*
+    	 *  private Integer _status;
+    private final Headers _headers;
+    private String _body = "";
+    private Boolean _bodyIsValid = true;
+    private Boolean _headRequest = false;
+    	 */
+    	String q = _status.toString();
+    	String w = _headers.toString();
+    	String e = _body.toString();
+    	String r = _bodyIsValid.toString();
+    	String t = _headRequest.toString();
+    	return q+w+e+r+t;
+    	
+    }
 }
