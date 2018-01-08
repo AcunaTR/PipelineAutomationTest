@@ -16,13 +16,13 @@
  */
 package main.java.Request.Processing;
 
-import main.java.Network.Readers.IReader;
-import main.java.Network.Wrappers.ISocketChannel;
-import main.java.Protocol.Parsers.ProtocolException;
-
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+
+import main.java.Network.Readers.IReader;
+import main.java.Network.Wrappers.ISocketChannel;
+import main.java.Protocol.Parsers.ProtocolException;
 
 /**
  *

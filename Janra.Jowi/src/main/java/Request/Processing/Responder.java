@@ -16,14 +16,14 @@
  */
 package main.java.Request.Processing;
 
+import java.nio.ByteBuffer;
+import java.io.IOException;
+import java.nio.charset.CharacterCodingException;
+
 import main.java.Network.Wrappers.ISocketChannel;
 import main.java.Protocol.Builders.IResponseBuilder;
 import main.java.Protocol.Models.ResponseImpl;
 import main.java.Protocol.Parsers.ProtocolException;
-
-import java.nio.ByteBuffer;
-import java.io.IOException;
-import java.nio.charset.CharacterCodingException;
 
 /**
  *

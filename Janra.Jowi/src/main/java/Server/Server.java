@@ -16,6 +16,8 @@
  */
 package main.java.Server;
 
+import java.io.IOException;
+
 import main.java.Network.Factories.*;
 import main.java.Network.Handlers.IncomingRequestHandler;
 import main.java.Pipeline.Configuration.*;
@@ -23,8 +25,6 @@ import main.java.Protocol.Builders.IResponseBuilder;
 import main.java.Protocol.Builders.ResponseBuilder;
 import main.java.Request.Processing.*;
 import main.java.Utilities.*;
-
-import java.io.IOException;
 
 /**
  *

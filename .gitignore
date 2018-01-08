@@ -6,9 +6,17 @@
 #eclipse files
 *.idea
 *.metadata
-*.settings
+*.settings/
 *.classpath
 *.project
+
+
+# Misc
+*.swp
+*.vs
+release.properties
+pom.xml.releaseBackup
+pom.xml.tag
 
 # Package Files #
 *.jar

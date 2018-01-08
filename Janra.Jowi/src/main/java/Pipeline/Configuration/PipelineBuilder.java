@@ -16,15 +16,15 @@
  */
 package main.java.Pipeline.Configuration;
 
-import main.java.Pipeline.IPipeline;
-import main.java.Pipeline.Pipeline;
-import main.java.Request.Processing.PipelineModule;
-import main.java.Server.IPipelineMiddleware;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+
+import main.java.Pipeline.IPipeline;
+import main.java.Pipeline.Pipeline;
+import main.java.Request.Processing.PipelineModule;
+import main.java.Server.IPipelineMiddleware;
 
 /**
  *

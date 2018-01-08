@@ -16,12 +16,13 @@
  */
 package main.java.Network.Readers;
 
+import java.io.ByteArrayInputStream;
+import java.util.zip.GZIPInputStream;
+
 import main.java.Network.Wrappers.ISocketChannel;
 import main.java.Protocol.Parsers.ProtocolException;
 import main.java.Server.IHeader;
 
-import java.io.ByteArrayInputStream;
-import java.util.zip.GZIPInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 

@@ -16,12 +16,12 @@
  */
 package main.java.Examples.Multiple;
 
+import java.io.IOException;
+
 import main.java.Examples.Basic.Pong;
 import main.java.Server.IConfiguration;
 import main.java.Server.IPipelineMiddleware;
 import main.java.Server.Server;
-
-import java.io.IOException;
 
 /**
  *

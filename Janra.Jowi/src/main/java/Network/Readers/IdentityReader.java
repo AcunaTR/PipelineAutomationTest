@@ -16,11 +16,11 @@
  */
 package main.java.Network.Readers;
 
+import java.io.IOException;
+
 import main.java.Network.Wrappers.ISocketChannel;
 import main.java.Protocol.Parsers.ProtocolException;
 import main.java.Server.IHeader;
-
-import java.io.IOException;
 
 /**
  *

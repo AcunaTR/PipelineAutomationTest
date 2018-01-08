@@ -16,15 +16,15 @@
  */
 package main.java.Pipeline.Configuration;
 
-import main.java.Pipeline.IPipeline;
-import main.java.Server.IPipelineConfiguration;
-import main.java.Server.IPipelineMiddleware;
-
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+
+import main.java.Pipeline.IPipeline;
+import main.java.Server.IPipelineConfiguration;
+import main.java.Server.IPipelineMiddleware;
 
 /**
  *
