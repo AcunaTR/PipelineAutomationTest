@@ -54,6 +54,7 @@ public class RequestBuilder implements IRequestBuilder
         try
         {
             String requestLine = new String(_reader.readLine(channel), _charset);
+            System.out.println(requestLine);
             HttpRequest request = _parser.ParseRequestLine(requestLine);
             
             Headers headers = getHeaders(channel);
