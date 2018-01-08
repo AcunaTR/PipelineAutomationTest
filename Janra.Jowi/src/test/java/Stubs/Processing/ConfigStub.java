@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Stubs.Processing;
+package Stubs.Processing;
 
-import java.Server.IConfiguration;
-import java.Server.IExceptionHandler;
-import java.Server.IPipelineMiddleware;
+import Server.IConfiguration;
+import Server.IExceptionHandler;
+import Server.IPipelineMiddleware;
 
 /**
  *

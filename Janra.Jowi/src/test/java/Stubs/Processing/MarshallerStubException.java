@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Stubs.Processing;
+package Stubs.Processing;
 
-import java.Pipeline.IPipeline;
-import java.Pipeline.Configuration.InvalidConfigurationException;
-import java.Request.Processing.IMarshaller;
+import Pipeline.IPipeline;
+import Pipeline.Configuration.InvalidConfigurationException;
+import Request.Processing.IMarshaller;
 
 /**
  *

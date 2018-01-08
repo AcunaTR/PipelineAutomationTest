@@ -14,16 +14,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Stubs.Factories;
+package Stubs.Factories;
 
-import java.Network.SocketServer;
-import java.Network.Factories.IRequestHandlerFactory;
-import java.Network.Handlers.IncomingRequestHandler;
-import java.Request.Processing.IMarshaller;
-import java.Request.Processing.ISendResponse;
-import java.Server.IConfiguration;
-import java.Utilities.ILauncher;
-import java.Stubs.Processing.*;
+import Network.SocketServer;
+import Network.Factories.IRequestHandlerFactory;
+import Network.Handlers.IncomingRequestHandler;
+import Request.Processing.IMarshaller;
+import Request.Processing.ISendResponse;
+import Server.IConfiguration;
+import Utilities.ILauncher;
+import Stubs.Processing.*;
 
 import java.io.IOException;
 

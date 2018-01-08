@@ -14,18 +14,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Network;
+package Network;
 
-import java.Network.SocketServer;
-import java.Network.Handlers.IncomingRequestHandler;
-import java.Network.Wrappers.ISelector;
-import java.Network.Wrappers.ISelectorKeys;
-import java.Request.Processing.IMarshaller;
-import java.Server.IPipelineConfiguration;
-import java.Stubs.Factories.*;
-import java.Stubs.Network.*;
-import java.Stubs.Processing.SendResponseStub;
-import java.Stubs.Utilities.LauncherStub;
+import Network.SocketServer;
+import Network.Handlers.IncomingRequestHandler;
+import Network.Wrappers.ISelector;
+import Network.Wrappers.ISelectorKeys;
+import Request.Processing.IMarshaller;
+import Server.IPipelineConfiguration;
+import Stubs.Factories.*;
+import Stubs.Network.*;
+import Stubs.Processing.SendResponseStub;
+import Stubs.Utilities.LauncherStub;
 
 import java.io.IOException;
 import java.util.Map;

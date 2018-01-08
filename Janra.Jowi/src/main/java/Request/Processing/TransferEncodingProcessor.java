@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Request.Processing;
+package Request.Processing;
 
 import java.io.IOException;
 
-import main.java.Network.Wrappers.ISocketChannel;
-import main.java.Protocol.Models.RequestBody;
-import main.java.Protocol.Parsers.ProtocolException;
-import main.java.Server.IHeader;
+import Network.Wrappers.ISocketChannel;
+import Protocol.Models.RequestBody;
+import Protocol.Parsers.ProtocolException;
+import Server.IHeader;
 
 /**
  *

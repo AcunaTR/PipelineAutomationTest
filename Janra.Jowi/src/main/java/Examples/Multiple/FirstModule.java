@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Examples.Multiple;
+package Examples.Multiple;
 
-import java.Protocol.Models.HttpMethod;
-import java.Server.IContext;
-import java.Server.IPipelineMiddleware;
+import Protocol.Models.HttpMethod;
+import Server.IContext;
+import Server.IPipelineMiddleware;
 
 /**
  *

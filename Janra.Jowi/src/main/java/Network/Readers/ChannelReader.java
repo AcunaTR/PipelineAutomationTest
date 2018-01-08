@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Network.Readers;
+package Network.Readers;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -22,6 +22,9 @@ import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
+
+import Network.Wrappers.ISocketChannel;
+import Protocol.Parsers.ProtocolException;
 
 
 /**

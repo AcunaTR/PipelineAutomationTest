@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Protocol.Parsers;
+package Protocol.Parsers;
 
-import main.java.Protocol.Models.HttpRequest;
-import main.java.Server.IHeader;
+import Protocol.Models.HttpRequest;
+import Server.IHeader;
 
 /**
  *

@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Request.Processing;
+package Request.Processing;
 
 import java.io.IOException;
 import java.nio.charset.CharacterCodingException;
 
-import main.java.Network.Wrappers.ISocketChannel;
-import main.java.Protocol.Models.ResponseImpl;
-import main.java.Protocol.Parsers.ProtocolException;
+import Network.Wrappers.ISocketChannel;
+import Protocol.Models.ResponseImpl;
+import Protocol.Parsers.ProtocolException;
 
 /**
  *

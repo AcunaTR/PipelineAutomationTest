@@ -14,12 +14,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Pipeline.Configuration;
+package Pipeline.Configuration;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import main.java.Server.IExceptionHandler;
+import Server.IExceptionHandler;
 
 /**
  *

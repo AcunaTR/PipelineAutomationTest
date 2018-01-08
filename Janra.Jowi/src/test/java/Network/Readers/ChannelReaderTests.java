@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Network.Readers;
+package Network.Readers;
 
-import java.Network.Readers.ChannelReader;
-import java.Protocol.Parsers.ProtocolException;
-import java.Stubs.Network.*;
+import Network.Readers.ChannelReader;
+import Protocol.Parsers.ProtocolException;
+import Stubs.Network.*;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -26,6 +26,10 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import org.junit.Before;
 import org.junit.Test;
+
+import Stubs.Network.SocketStubBinary;
+import Stubs.Network.SocketStubComplete;
+import Stubs.Network.SocketStubInterrupting;
 
 /**
  *

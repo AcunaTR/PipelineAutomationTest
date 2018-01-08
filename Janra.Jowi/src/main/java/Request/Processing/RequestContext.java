@@ -14,17 +14,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Request.Processing;
+package Request.Processing;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import main.java.Protocol.Models.Header;
-import main.java.Protocol.Models.HttpContext;
-import main.java.Protocol.Models.HttpRequest;
-import main.java.Server.HttpResponse;
-import main.java.Server.IContext;
-import main.java.Server.IProperties;
+import Protocol.Models.Header;
+import Protocol.Models.HttpContext;
+import Protocol.Models.HttpRequest;
+import Server.HttpResponse;
+import Server.IContext;
+import Server.IProperties;
 
 /**
  *

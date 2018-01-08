@@ -14,16 +14,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Pipeline.Configuration;
+package Pipeline.Configuration;
 
-import java.Pipeline.IPipeline;
-import java.Pipeline.Configuration.*;
-import java.Protocol.Models.HttpContext;
-import java.Request.Processing.RequestContext;
-import java.Server.IPipelineMiddleware;
-import java.Stubs.Middleware.MiddlewareStub;
-import java.Stubs.Middleware.MiddlewareStubThree;
-import java.Stubs.Middleware.MiddlewareStubTwo;
+import Pipeline.IPipeline;
+import Pipeline.Configuration.*;
+import Protocol.Models.HttpContext;
+import Request.Processing.RequestContext;
+import Server.IPipelineMiddleware;
+import Stubs.Middleware.MiddlewareStub;
+import Stubs.Middleware.MiddlewareStubThree;
+import Stubs.Middleware.MiddlewareStubTwo;
 
 import java.util.Collections;
 import java.util.HashMap;

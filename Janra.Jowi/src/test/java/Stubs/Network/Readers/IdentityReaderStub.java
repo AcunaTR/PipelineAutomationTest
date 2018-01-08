@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Stubs.Network.Readers;
+package Stubs.Network.Readers;
 
 import java.io.IOException;
 
-import java.Network.Readers.IReader;
-import java.Network.Wrappers.ISocketChannel;
-import java.Protocol.Parsers.ProtocolException;
+import Network.Readers.IReader;
+import Network.Wrappers.ISocketChannel;
+import Protocol.Parsers.ProtocolException;
 
 /**
  *

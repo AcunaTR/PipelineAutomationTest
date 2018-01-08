@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package test.java.Network.Readers;
+package Network.Readers;
 
-import main.java.Network.Readers.GzipReader;
-import main.java.Protocol.Parsers.ProtocolException;
-import test.java.Stubs.Network.SocketStubBinary;
+import Network.Readers.GzipReader;
+import Protocol.Parsers.ProtocolException;
+import Stubs.Network.SocketStubBinary;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

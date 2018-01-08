@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Examples.Basic;
+package Examples.Basic;
 
-import java.Server.IPipelineMiddleware;
+import Server.IPipelineMiddleware;
 
-import java.Server.IContext;
+import Server.IContext;
 
 /**
  *

@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Protocol.Builders;
+package Protocol.Builders;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.CharacterCodingException;
 import org.junit.*;
 
-import java.Protocol.Builders.ResponseBuilder;
-import java.Protocol.Models.ResponseImpl;
-import java.Protocol.Parsers.ProtocolException;
+import Protocol.Builders.ResponseBuilder;
+import Protocol.Models.ResponseImpl;
+import Protocol.Parsers.ProtocolException;
 
 import static org.junit.Assert.*;
 

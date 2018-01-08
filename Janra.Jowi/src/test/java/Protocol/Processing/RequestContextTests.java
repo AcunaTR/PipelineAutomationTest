@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Protocol.Processing;
+package Protocol.Processing;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -22,9 +22,9 @@ import static org.junit.Assert.fail;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.Protocol.Models.HttpContext;
-import java.Protocol.Models.ResponseImpl;
-import java.Request.Processing.RequestContext;
+import Protocol.Models.HttpContext;
+import Protocol.Models.ResponseImpl;
+import Request.Processing.RequestContext;
 
 /**
  *

@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Protocol.Models;
+package Protocol.Models;
 
 import java.text.MessageFormat;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import main.java.Protocol.Parsers.ProtocolException;
+import Protocol.Parsers.ProtocolException;
 
 /**
  *

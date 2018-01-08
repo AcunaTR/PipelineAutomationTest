@@ -14,17 +14,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Server;
+package Server;
 
 import java.io.IOException;
 
-import main.java.Network.Factories.*;
-import main.java.Network.Handlers.IncomingRequestHandler;
-import main.java.Pipeline.Configuration.*;
-import main.java.Protocol.Builders.IResponseBuilder;
-import main.java.Protocol.Builders.ResponseBuilder;
-import main.java.Request.Processing.*;
-import main.java.Utilities.*;
+import Network.Factories.*;
+import Network.Handlers.IncomingRequestHandler;
+import Pipeline.Configuration.*;
+import Protocol.Builders.IResponseBuilder;
+import Protocol.Builders.ResponseBuilder;
+import Request.Processing.*;
+import Utilities.*;
 
 /**
  *

@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Pipeline;
+package Pipeline;
 
-import main.java.Request.Processing.IPipelineModule;
-import main.java.Server.IContext;
+import Request.Processing.IPipelineModule;
+import Server.IContext;
 
 /**
  *

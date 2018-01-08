@@ -14,19 +14,21 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Protocol.Processing;
+package Protocol.Processing;
 
-import java.Pipeline.*;
-import java.Pipeline.Configuration.InvalidConfigurationException;
-import java.Request.Processing.PipelineModule;
-import java.Request.Processing.RequestMarshaller;
-import java.Stubs.Middleware.MiddlewareStub;
+import Pipeline.*;
+import Pipeline.Configuration.InvalidConfigurationException;
+import Request.Processing.PipelineModule;
+import Request.Processing.RequestMarshaller;
+import Stubs.Middleware.MiddlewareStub;
 
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.*;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
+
+import java.lang.reflect.Array;
 
 /**
  *

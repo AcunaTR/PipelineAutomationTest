@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Pipeline.Configuration;
+package Pipeline.Configuration;
 
-import java.Pipeline.Configuration.PipelineConfiguration;
-import java.Stubs.Middleware.MiddlewareStub;
-import java.Stubs.Middleware.MiddlewareStubThree;
-import java.Stubs.Middleware.MiddlewareStubTwo;
-import java.Stubs.Processing.PipelineBuilderStub;
+import Pipeline.Configuration.PipelineConfiguration;
+import Stubs.Middleware.MiddlewareStub;
+import Stubs.Middleware.MiddlewareStubThree;
+import Stubs.Middleware.MiddlewareStubTwo;
+import Stubs.Processing.PipelineBuilderStub;
 
 import org.junit.*;
 import static org.junit.Assert.assertTrue;

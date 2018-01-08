@@ -14,9 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Network.Readers;
+package Network.Readers;
 
 import java.io.IOException;
+
+import Network.Wrappers.ISocketChannel;
+import Protocol.Parsers.ProtocolException;
+import Server.IHeader;
 
 
 /**

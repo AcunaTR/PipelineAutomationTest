@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Pipeline.Configuration;
+package Pipeline.Configuration;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -22,9 +22,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import main.java.Pipeline.IPipeline;
-import main.java.Server.IPipelineConfiguration;
-import main.java.Server.IPipelineMiddleware;
+import Pipeline.IPipeline;
+import Server.IPipelineConfiguration;
+import Server.IPipelineMiddleware;
 
 /**
  *

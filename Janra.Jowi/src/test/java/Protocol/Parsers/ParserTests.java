@@ -14,16 +14,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Protocol.Parsers;
+package Protocol.Parsers;
 
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.Protocol.Models.HttpMethod;
-import java.Protocol.Models.HttpRequest;
-import java.Protocol.Parsers.*;
-import java.Server.IHeader;
+import Protocol.Models.HttpMethod;
+import Protocol.Models.HttpRequest;
+import Protocol.Parsers.*;
+import Server.IHeader;
 
 /**
  *

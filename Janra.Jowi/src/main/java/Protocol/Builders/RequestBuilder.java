@@ -14,20 +14,20 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Protocol.Builders;
+package Protocol.Builders;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
 
-import main.java.Network.Readers.ChannelReader;
-import main.java.Network.Readers.IdentityReader;
-import main.java.Network.Wrappers.ISocketChannel;
-import main.java.Protocol.Models.*;
-import main.java.Protocol.Parsers.*;
-import main.java.Request.Processing.TransferEncodingFactory;
-import main.java.Request.Processing.TransferEncodingProcessor;
-import main.java.Server.IConfiguration;
-import main.java.Server.IHeader;
+import Network.Readers.ChannelReader;
+import Network.Readers.IdentityReader;
+import Network.Wrappers.ISocketChannel;
+import Protocol.Models.*;
+import Protocol.Parsers.*;
+import Request.Processing.TransferEncodingFactory;
+import Request.Processing.TransferEncodingProcessor;
+import Server.IConfiguration;
+import Server.IHeader;
 
 /**
  *

@@ -14,17 +14,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Pipeline.Configuration;
+package Pipeline.Configuration;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import main.java.Pipeline.IPipeline;
-import main.java.Pipeline.Pipeline;
-import main.java.Request.Processing.PipelineModule;
-import main.java.Server.IPipelineMiddleware;
+import Pipeline.IPipeline;
+import Pipeline.Pipeline;
+import Request.Processing.PipelineModule;
+import Server.IPipelineMiddleware;
 
 /**
  *

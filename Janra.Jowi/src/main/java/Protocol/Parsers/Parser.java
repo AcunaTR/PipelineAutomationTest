@@ -15,10 +15,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package main.java.Protocol.Parsers;
+package Protocol.Parsers;
 
-import main.java.Protocol.Models.*;
-import main.java.Server.IHeader;
+import Protocol.Models.*;
+import Server.IHeader;
 
 /**
  *

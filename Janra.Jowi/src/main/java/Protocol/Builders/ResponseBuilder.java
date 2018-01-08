@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Protocol.Builders;
+package Protocol.Builders;
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -22,9 +22,9 @@ import java.nio.charset.CharacterCodingException;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 
-import main.java.Protocol.Models.HttpStatus;
-import main.java.Protocol.Models.ResponseImpl;
-import main.java.Protocol.Parsers.ProtocolException;
+import Protocol.Models.HttpStatus;
+import Protocol.Models.ResponseImpl;
+import Protocol.Parsers.ProtocolException;
 
 /**
  *

@@ -18,6 +18,10 @@ package Network;
 
 import java.io.IOException;
 
+import Network.Wrappers.ISelectorKey;
+import Network.Wrappers.ISelectorKeys;
+import Network.Wrappers.ISocketChannel;
+
 /**
  *
  * @author jmillen

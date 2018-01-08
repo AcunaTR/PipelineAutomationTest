@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Request.Processing;
+package Request.Processing;
 
-import main.java.Pipeline.IPipeline;
-import main.java.Pipeline.Configuration.InvalidConfigurationException;
+import Pipeline.IPipeline;
+import Pipeline.Configuration.InvalidConfigurationException;
 
 /**
  *

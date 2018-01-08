@@ -14,21 +14,21 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Network;
+package Network;
 
-import java.Network.Factories.ConfigurationFactory;
-import java.Network.Handlers.RequestHandler;
-import java.Pipeline.Configuration.Configuration;
-import java.Request.Processing.IProcessRequest;
-import java.Stubs.Network.SelectorKeyStub;
-import java.Stubs.Network.SelectorStub;
-import java.Stubs.Network.SocketStubComplete;
-import java.Stubs.Pipeline.PipelineConfigStub;
-import java.Stubs.Processing.ProcessRequestExceptionStub;
-import java.Stubs.Processing.ProcessRequestStub;
-import java.Stubs.Processing.SendResponseStub;
-import java.Stubs.Protocol.RequestBuilderStub;
-import java.Stubs.Utilities.LauncherStub;
+import Network.Factories.ConfigurationFactory;
+import Network.Handlers.RequestHandler;
+import Pipeline.Configuration.Configuration;
+import Request.Processing.IProcessRequest;
+import Stubs.Network.SelectorKeyStub;
+import Stubs.Network.SelectorStub;
+import Stubs.Network.SocketStubComplete;
+import Stubs.Pipeline.PipelineConfigStub;
+import Stubs.Processing.ProcessRequestExceptionStub;
+import Stubs.Processing.ProcessRequestStub;
+import Stubs.Processing.SendResponseStub;
+import Stubs.Protocol.RequestBuilderStub;
+import Stubs.Utilities.LauncherStub;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;

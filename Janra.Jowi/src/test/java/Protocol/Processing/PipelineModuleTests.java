@@ -14,16 +14,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Protocol.Processing;
+package Protocol.Processing;
 
-import java.Protocol.Models.HttpContext;
-import java.Protocol.Models.ResponseImpl;
-import java.Request.Processing.PipelineModule;
-import java.Request.Processing.RequestContext;
-import java.Server.IPipelineMiddleware;
-import java.Stubs.Middleware.MiddlewareStub;
-import java.Stubs.Middleware.MiddlewareStubThree;
-import java.Stubs.Middleware.MiddlewareStubTwo;
+import Protocol.Models.HttpContext;
+import Protocol.Models.ResponseImpl;
+import Request.Processing.PipelineModule;
+import Request.Processing.RequestContext;
+import Server.IPipelineMiddleware;
+import Stubs.Middleware.MiddlewareStub;
+import Stubs.Middleware.MiddlewareStubThree;
+import Stubs.Middleware.MiddlewareStubTwo;
 
 import org.junit.*;
 import static org.junit.Assert.assertFalse;

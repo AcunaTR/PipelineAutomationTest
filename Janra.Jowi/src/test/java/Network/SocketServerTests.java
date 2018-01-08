@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Network;
+package Network;
 
 import java.io.IOException;
 import org.junit.*;
 
-import java.Stubs.Network.SelectorKeysStub;
-import java.Stubs.Network.SelectorStub;
+import Stubs.Network.SelectorKeysStub;
+import Stubs.Network.SelectorStub;
 
 import static org.junit.Assert.*;
 

@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package java.Stubs.Middleware;
+package Stubs.Middleware;
 
-import java.Server.IContext;
-import java.Server.IPipelineMiddleware;
+import Server.IContext;
+import Server.IPipelineMiddleware;
 
 /**
  *
