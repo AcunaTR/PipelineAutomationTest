@@ -14,18 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Network.Handlers;
+package Network.Handlers;
 
 import java.io.IOException;
 
-import main.java.Network.Wrappers.*;
-import main.java.Protocol.Builders.IRequestBuilder;
-import main.java.Protocol.Models.*;
-import main.java.Protocol.Parsers.ProtocolException;
-import main.java.Request.Processing.IProcessRequest;
-import main.java.Request.Processing.ISendResponse;
-import main.java.Server.IExceptionHandler;
-import main.java.Utilities.ILauncher;
 
 /**
  *

@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Examples.Basic;
+package Examples.Basic;
 
 import java.io.IOException;
 
-import main.java.Server.IConfiguration;
-import main.java.Server.IPipelineMiddleware;
-import main.java.Server.Server;
+import Server.IConfiguration;
+import Server.IPipelineMiddleware;
+import Server.Server;
 
 /**
  *

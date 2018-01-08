@@ -14,17 +14,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Network.Factories;
+package Network.Factories;
 
 import java.io.IOException;
 
-import main.java.Network.Handlers.RequestHandler;
-import main.java.Network.Wrappers.*;
-import main.java.Pipeline.Configuration.Configuration;
-import main.java.Protocol.Builders.*;
-import main.java.Protocol.Parsers.*;
-import main.java.Request.Processing.*;
-import main.java.Utilities.ILauncher;
+import Network.Handlers.RequestHandler;
+import Network.Wrappers.*;
+import Pipeline.Configuration.Configuration;
+import Protocol.Builders.*;
+import Protocol.Parsers.*;
+import Request.Processing.*;
+import Utilities.ILauncher;
 
 /**
  *

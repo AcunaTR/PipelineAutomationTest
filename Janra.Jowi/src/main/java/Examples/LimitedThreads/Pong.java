@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Examples.LimitedThreads;
+package Examples.LimitedThreads;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import main.java.Server.IContext;
-import main.java.Server.IPipelineMiddleware;
+import Server.IContext;
+import Server.IPipelineMiddleware;
 
 /**
  *

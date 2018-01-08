@@ -14,14 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Network.Readers;
+package Network.Readers;
 
 import java.io.ByteArrayInputStream;
 import java.util.zip.GZIPInputStream;
-
-import main.java.Network.Wrappers.ISocketChannel;
-import main.java.Protocol.Parsers.ProtocolException;
-import main.java.Server.IHeader;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Network.Factories;
+package Network.Factories;
 
 import java.io.IOException;
 
-import main.java.Network.Wrappers.ISocketChannel;
-import main.java.Pipeline.Configuration.Configuration;
-import main.java.Request.Processing.IMarshaller;
-import main.java.Utilities.ILauncher;
+import Network.Wrappers.ISocketChannel;
+import Pipeline.Configuration.Configuration;
+import Request.Processing.IMarshaller;
+import Utilities.ILauncher;
 
 /**
  *

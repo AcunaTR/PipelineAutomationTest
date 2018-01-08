@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package main.java.Network.Factories;
+package Network.Factories;
 
-import main.java.Pipeline.Configuration.Configuration;
-import main.java.Pipeline.Configuration.DefaultExceptionHandler;
-import main.java.Server.IPipelineConfiguration;
+import Pipeline.Configuration.Configuration;
+import Pipeline.Configuration.DefaultExceptionHandler;
+import Server.IPipelineConfiguration;
 
 /**
  *
