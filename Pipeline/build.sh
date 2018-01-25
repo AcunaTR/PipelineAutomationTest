@@ -1,8 +1,3 @@
-function buildFail {
-    echo "Maven build failed"
-}
-trap buildFail ERR
-
 CURDIR=`pwd`
 
 docker run --rm \
