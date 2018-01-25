@@ -1,5 +1,3 @@
-#!/bin/sh
-
 function buildFail {
     echo "Maven build failed"
 }
